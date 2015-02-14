@@ -53,6 +53,7 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'pry-byebug'
   gem 'awesome_print'
+  gem 'rspec'
   gem 'rspec-rails'
   gem 'rubocop'
 end
@@ -66,6 +67,12 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+end
+
+group :test do
+  gem 'database_cleaner'
+  gem 'timecop'
+  gem 'coveralls'
 end
 
 gem 'rails_12factor', group: :production
