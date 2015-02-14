@@ -49,7 +49,6 @@ group :development, :test do
   gem 'pry-rails'
   gem 'pry-rescue'
   gem 'binding_of_caller'
-  gem 'byebug'
   gem 'pry-byebug'
   gem 'awesome_print'
   gem 'rspec-rails'
