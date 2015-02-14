@@ -42,3 +42,6 @@ private_env.sh
 
 # Idea proj configuration - RubyMine
 /.idea
+
+# Ignore application configuration
+/config/application.yml
