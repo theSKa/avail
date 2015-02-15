@@ -1,8 +1,8 @@
 class CreateWhitelistedIntervals < ActiveRecord::Migration
   def change
-    create_table :whitelisted_intervals do |t|
-      t.datetime :start_time, null: false
-      t.datetime :end_time, null: false
+    create_table :availabilities do |t|
+      t.datetime :beginning, null: false
+      t.datetime :ending, null: false
       t.timestamps null: false
     end
   end

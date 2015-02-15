@@ -27,6 +27,7 @@ gem 'figaro'
 gem 'pg'
 gem 'squeel'
 gem 'haml-rails'
+gem 'grape'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
