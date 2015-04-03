@@ -3,7 +3,7 @@ require 'spec_helper'
 RSpec.describe Availability, type: :model do
 
   describe 'responds to attributes' do
-    it { should respond_to(:beginning)} 
+    it { is_expected.to respond_to(:beginning)} 
     it { should respond_to(:ending)} 
   end
 
